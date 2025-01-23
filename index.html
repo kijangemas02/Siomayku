@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Food Online</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <div class="logo-container">
+      <div class="logo">
+        <img src="https://github.com/kijangemas02/kijang02/blob/main/Untitled%20Project%20(1)_enhanced_enhanced%20(1).png?raw=true" alt="Logo">
+      </div>
+      <div class="animated-slogan">
+        Ayo buruan beli,<br>Dan pesan sekarang juga!
+      </div>
+    </div>
+    <div class="nav-links">
+      <a href="#home"><i class="fas fa-home"></i> Home</a>
+      <a href="#menu"><i class="fas fa-utensils"></i> Menu</a>
+      <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+      <a href="#cart" class="cart-icon"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a>
+    </div>
+  </nav>
+
+  <header id="home">
+    <div class="hero">
+      <h1>Melayani Dengan Sepenuh Hati</h1>
+      <div class="animated-text">Siomay ku memang Enakkk!!</div>
+      <p>Discover a world of flavors delivered right to your doorstep</p>
+      <a href="#menu" class="cta-button">Daftar Menu</a>
+    </div>
+  </header>
+
+  <section id="menu">
+    <div class="logo menu-logo">
+      <img src="https://github.com/kijangemas02/kijang02/blob/main/Untitled%20Project%20(1)_enhanced_enhanced%20(1).png?raw=true" alt="Logo">
+    </div>
+    <h2>Menu Special Kami</h2>
+    <div class="menu-grid" id="menu-items">
+      <!-- Menu items will be inserted here by JavaScript -->
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Cara Pemesanan</h2>
+    <div class="about-content">
+      <p>Anda tinggal click menu keranjang kemudian pesan Dan transfer,setelah anda Transfer , mohon Confirm pembayaran Lewat Whatsapp kami disertakan Nama Dan Alamat Yang dikirim.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p>jika Anda berminat Bisa Hubungi Social Media kami!</p>
+    </div>
+  </section>
+
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div class="cart-total">
+        <h3>Total Amount: Rp<span id="cart-total">0</span></h3>
+        <button id="checkout-btn">
+          <i class="fas fa-shopping-bag"></i>
+          Proceed to Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 SIOMAY KU. All rights reserved.</p>
+  </footer>
+
+  <div class="social-float-container">
+    <a href="https://wa.me/+6282232425509?text=Halo,%20saya%20ingin%20memesan%20makanan" 
+       class="social-float whatsapp-float" 
+       target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      <span class="tooltip">Chat on WhatsApp!</span>
+    </a>
+    
+    <a href="https://t.me/+X-1Wj41K1-c5MGNl" 
+       class="social-float telegram-float" 
+       target="_blank">
+      <i class="fab fa-telegram-plane"></i>
+      <span class="tooltip">Message on Telegram!</span>
+    </a>
+    
+    <a href="https://discord.gg/5afDnBZX" 
+       class="social-float discord-float" 
+       target="_blank">
+      <i class="fab fa-discord"></i>
+      <span class="tooltip">Join our Discord!</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
